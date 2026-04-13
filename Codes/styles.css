@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+body {
+ font-family: "Audiowide", sans-serif;
+ background-color: bisque;
+}
+
+.caixa {
+    background-color: #076ebd;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 0 550px;
+    width: 700px;
+    color: aliceblue;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 10px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.caixa__formulario__botoes {
+    grid-column: 1;
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 5px;
+    border: solid white;
+    padding: 5px 10px;
+    background-color: black;
+    color: aliceblue;
+    font-family: "Audiowide", sans-serif;
+}
+
+button:hover {
+    background-color: gray;
+    border: solid black;
+}
+
+::placeholder {
+    font-family: "Audiowide", sans-serif;;
+}
